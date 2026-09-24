@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AUTOVEXA - Concesionario ficticio de vehículos seleccionados.">
+    <title>Presupuesto | AUTOVEXA</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!-- Cabezal de página con las diferentes secciones para explorar de manera fácil y rápida -->
+<header class="site-header">
+    <div class="container nav-wrap">
+        <a class="brand" href="index.html">
+            <span class="brand-mark">A</span>
+            <span>AUTOVEXA</span>
+        </a>
+
+        <nav aria-label="Navegación principal">
+            <ul class="nav-list">
+                <li><a class="" href="index.html">Inicio</a></li>
+                <li><a class="" href="productos.html">Vehículos</a></li>
+                <li><a class="activo" href="presupuesto.html">Presupuesto</a></li>
+                <li><a class="" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <!-- Sección de encabezado de la página -->
+<main>
+    <section class="page-hero">
+        <div class="container">
+            <p class="eyebrow">CONTACTA CON AUTOVEXA</p>
+            <h1>Solicita tu presupuesto</h1>
+            <p>Rellena el formulario y te ayudaremos a encontrar tu próximo vehículo.</p>
+        </div>
+    </section>
+
+    <!-- Sección del formulario de presupuesto donde se solicita la información del cliente y que acepte la politica de privacidad antes de enviar la solicitud -->
+    <section class="section">
+        <div class="container form-layout">
+            <div>
+                <p class="eyebrow">PRESUPUESTO</p>
+                <h2>Cuéntanos qué necesitas</h2>
+                <p>Todos los campos son obligatorios. El navegador comprobará los datos básicos antes del envío.</p>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="informacion">Solicite más información</label>
+                    <textarea id="informacion" name="informacion" rows="7" required placeholder="Indica qué vehículo buscas, presupuesto aproximado, etc."></textarea>
+                </div>
+
+                <label class="check-row">
+                    <input type="checkbox" name="privacidad" required>
+                    <span>Acepto la <a href="aviso-legal.html">Política de privacidad</a>.</span>
+                </label>
+
+                <button class="btn btn-primary full-btn" type="submit">Enviar solicitud</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+    <!-- Pie de página con información de contacto y enlaces -->
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <a class="brand footer-brand" href="index.html">
+                <span class="brand-mark">A</span>
+                <span>AUTOVEXA</span>
+            </a>
+            <p>Vehículos seleccionados para quienes buscan algo diferente.</p>
+        </div>
+
+        <div>
+            <h3>Contacto</h3>
+            <p>Av. del Motor, 25<br>06001 Badajoz</p>
+            <p>+34 600 123 456<br>hola@autovexa.test</p>
+        </div>
+
+        <div>
+            <h3>Redes sociales</h3>
+            <div class="socials">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="YouTube">YT</a>
+            </div>
+        </div>
+
+        <div>
+            <h3>Información</h3>
+            <a href="aviso-legal.html">Aviso legal</a>
+            <a href="presupuesto.html">Solicitar presupuesto</a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 AUTOVEXA · Proyecto académico ficticio</p>
+    </div>
+</footer>
+
+</body>
+</html>
