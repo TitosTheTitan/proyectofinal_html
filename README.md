@@ -1,2 +1,3 @@
 # Proyecto Final HTML
-Este es mi primer proyecto HTML/CSS para la prueba final de la unidad del curso.
+Dirección del Hosting del sitio web: https://titosthetitan.github.io/proyectofinal_html/
+Dirección del repositorio de GitHub: https://github.com/TitosTheTitan/proyectofinal_html
